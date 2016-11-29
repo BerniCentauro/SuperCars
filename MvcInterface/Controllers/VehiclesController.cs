@@ -36,12 +36,15 @@ namespace MvcInterface.Controllers
             try
             {
                 _data.Insert(pVehicle);
-                Response.Redirect("~/Vehicles");
+                ViewBag.Status = "Success";
+                ViewBag.Message = "Operación completada exitosamente";
+                return View(pVehicle);
             }
             catch (Exception ex)
             {
-                ViewBag.Error = "Ha ocurrido un error";
-                return View();
+                ViewBag.Status = "Error";
+                ViewBag.Message = "Ha ocurrido un error";
+                return View(pVehicle);
             }
 
         }
