@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebInterface.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Super Cars</title>
+
+    <!-- Styles -->
+    <link type="text/css" href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link type="text/css" href="Assets/Styles/Style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="SuperCarsForm" runat="server">
+        <!-- Menu -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">Super Cars</div>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mantenimiento</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/Vehicles">Vehicles</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Main Container -->
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="/Libs/JQuery/jquery.min.js"></script>
+    <script type="text/javascript" src="/Libs/Bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Assets/Scripts/Script.js"></script>
+
+    <asp:ContentPlaceHolder ID="Scripts" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

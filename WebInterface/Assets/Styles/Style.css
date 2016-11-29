@@ -1,0 +1,15 @@
+﻿.push {
+    display: block;
+    height: 50px;
+    width: 100%;
+    clear: both;
+}
+.push.push-xs {
+    height: 10px;
+}
+.push.push-sm {
+    height: 30px;
+}
+.push.push-lg {
+    height: 80px;
+}
