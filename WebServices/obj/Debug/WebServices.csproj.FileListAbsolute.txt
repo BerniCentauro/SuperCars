@@ -12,3 +12,17 @@ c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\WebServic
 c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\WebServices\bin\EntityFramework.SqlServer.xml
 c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\WebServices\obj\Debug\WebServices.dll
 c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\WebServices\obj\Debug\WebServices.pdb
+C:\GitHub\SuperCars\WebServices\bin\WebServices.dll.config
+C:\GitHub\SuperCars\WebServices\bin\WebServices.dll
+C:\GitHub\SuperCars\WebServices\bin\WebServices.pdb
+C:\GitHub\SuperCars\WebServices\bin\Context.dll
+C:\GitHub\SuperCars\WebServices\bin\DataAccess.dll
+C:\GitHub\SuperCars\WebServices\bin\EntityFramework.dll
+C:\GitHub\SuperCars\WebServices\bin\EntityFramework.SqlServer.dll
+C:\GitHub\SuperCars\WebServices\bin\Context.pdb
+C:\GitHub\SuperCars\WebServices\bin\DataAccess.pdb
+C:\GitHub\SuperCars\WebServices\bin\EntityFramework.xml
+C:\GitHub\SuperCars\WebServices\bin\EntityFramework.SqlServer.xml
+C:\GitHub\SuperCars\WebServices\obj\Debug\WebServices.csprojResolveAssemblyReference.cache
+C:\GitHub\SuperCars\WebServices\obj\Debug\WebServices.dll
+C:\GitHub\SuperCars\WebServices\obj\Debug\WebServices.pdb

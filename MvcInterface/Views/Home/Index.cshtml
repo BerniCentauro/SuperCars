@@ -1,0 +1,26 @@
+﻿@using Context;
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="page-header">
+    <h2>Inicio</h2>
+</div>
+
+<h3>Vehículos en venta</h3>
+<div class="row">
+    @foreach (Vehicle objVehicle in ViewBag.Vehicles)
+    {
+        <div class="col-xs-3">
+            <div class="thumbnail">
+                <img src="@objVehicle.Url">
+                <div class="caption">
+                    <h3>@objVehicle.Title</h3>
+                    <p>@objVehicle.Description</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+       
