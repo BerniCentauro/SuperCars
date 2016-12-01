@@ -15,7 +15,7 @@
             </div>
         </LayoutTemplate>
         <ItemTemplate>
-            <div class="col-xs-3">
+            <div class="col-xs-3" >
                 <div class="thumbnail">
                     <img src="<%#((Vehicle)Container.DataItem).Url%>">
                     <div class="caption">
