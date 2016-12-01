@@ -35,6 +35,5 @@ C:\GitHub\SuperCars\WebInterface\bin\WebInterface.dll
 C:\GitHub\SuperCars\WebInterface\bin\WebInterface.pdb
 C:\GitHub\SuperCars\WebInterface\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\GitHub\SuperCars\WebInterface\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\GitHub\SuperCars\WebInterface\obj\Debug\WebInterface.csprojResolveAssemblyReference.cache
 C:\GitHub\SuperCars\WebInterface\obj\Debug\WebInterface.dll
 C:\GitHub\SuperCars\WebInterface\obj\Debug\WebInterface.pdb

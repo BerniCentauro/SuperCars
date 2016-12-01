@@ -15,6 +15,5 @@ C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.dll
 C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.SqlServer.dll
 C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.xml
 C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.SqlServer.xml
-C:\GitHub\SuperCars\Context\obj\Debug\Context.csprojResolveAssemblyReference.cache
 C:\GitHub\SuperCars\Context\obj\Debug\Context.dll
 C:\GitHub\SuperCars\Context\obj\Debug\Context.pdb

@@ -120,6 +120,8 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Vehicles\Add.cshtml" />
+    <Content Include="Views\Vehicles\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\web.config" />
@@ -154,8 +156,6 @@
     <Content Include="Scripts\Script.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Vehicles\Index.cshtml" />
-    <Content Include="Views\Vehicles\Add.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
