@@ -38,3 +38,11 @@ C:\GitHub\SuperCars\MvcInterface\bin\System.Web.WebPages.Razor.xml
 C:\GitHub\SuperCars\MvcInterface\obj\Debug\MvcInterface.csprojResolveAssemblyReference.cache
 C:\GitHub\SuperCars\MvcInterface\obj\Debug\MvcInterface.dll
 C:\GitHub\SuperCars\MvcInterface\obj\Debug\MvcInterface.pdb
+C:\GitHub\SuperCars\MvcInterface\bin\Context.dll
+C:\GitHub\SuperCars\MvcInterface\bin\DataAccess.dll
+C:\GitHub\SuperCars\MvcInterface\bin\EntityFramework.dll
+C:\GitHub\SuperCars\MvcInterface\bin\Context.pdb
+C:\GitHub\SuperCars\MvcInterface\bin\DataAccess.pdb
+C:\GitHub\SuperCars\MvcInterface\bin\EntityFramework.xml
+C:\GitHub\SuperCars\MvcInterface\bin\EntityFramework.SqlServer.dll
+C:\GitHub\SuperCars\MvcInterface\bin\EntityFramework.SqlServer.xml

@@ -8,3 +8,13 @@ c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\Context\b
 c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\Context\obj\Debug\Context.dll
 c:\users\berni hidalgo\documents\visual studio 2015\Projects\SuperCars\Context\obj\Debug\Context.pdb
 C:\Users\Berni Hidalgo\Documents\Visual Studio 2015\Projects\SuperCars\Context\obj\Debug\Context.csprojResolveAssemblyReference.cache
+C:\GitHub\SuperCars\Context\bin\Debug\Context.dll.config
+C:\GitHub\SuperCars\Context\bin\Debug\Context.dll
+C:\GitHub\SuperCars\Context\bin\Debug\Context.pdb
+C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.dll
+C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.xml
+C:\GitHub\SuperCars\Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\SuperCars\Context\obj\Debug\Context.csprojResolveAssemblyReference.cache
+C:\GitHub\SuperCars\Context\obj\Debug\Context.dll
+C:\GitHub\SuperCars\Context\obj\Debug\Context.pdb
