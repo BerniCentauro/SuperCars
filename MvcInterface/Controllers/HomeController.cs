@@ -34,6 +34,11 @@ namespace MvcInterface.Controllers
 
             return View(objPagination);
         }
+
+        public ActionResult Add()
+        {
+            return View();
+        }
         
         private List<int> GetPages(int totalPages)
         {
