@@ -6,6 +6,12 @@
     <h2>Vehículos <small>Agregar nuevo</small></h2>
 </div>
 
+@if(ViewBag.Message != null) { 
+    <div class="alert alert-success">
+        @ViewBag.Message
+    </div>
+}
+
 <form method="post">
     <ul class="nav nav-pills nav-justified">
         <li class="active"><a href="#stepOne" data-toggle="tab">Paso 1. Datos del anuncio</a></li>
@@ -16,108 +22,15 @@
     <div class="tab-content">
         <!-- Paso 1 -->
         <div class="tab-pane fade active in" id="stepOne">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="form-group">
-                        <label class="control-label">Título *</label>
-                        <input class="form-control" name="Title" type="text" required />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Descripción *</label>
-                        <textarea class="form-control" name="Description" required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Precio *</label>
-                        <input class="form-control" name="Price" type="number" required />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div cass="form-group">
-                        <button class="btn btn-primary" type="button">Continuar</button>
-                    </div>
-                </div>
-            </div>
+            @Html.Partial("_StepOne")
         </div>
         <!-- Paso 2 -->
         <div class="tab-pane fade" id="stepTwo">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="form-group">
-                        <label class="control-label">Tipo de vehículo</label>
-                        <select class="form-control" name="Type">
-                            <option value="LIGHT" selected>Vehículo Liviano</option>
-                            <option value="CHARGE">Vehiculo de Carga</option>
-                            <option value="MOTO">Motocicleta</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Marca</label>
-                        <input class="form-control" name="Brand" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Modelo</label>
-                        <input class="form-control" name="Model" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Año</label>
-                        <input class="form-control" name="Year" type="number" />
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="form-group">
-                        <label class="control-label">Color</label>
-                        <input class="form-control" name="Color" type="text" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Estado</label>
-                        <select class="form-control" name="Status">
-                            <option value="NEW">Nuevo</option>
-                            <option value="USED">Usado</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Foto</label>
-                        <input class="form-control" name="Url" type="url" placeholder="http://"/>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div cass="form-group">
-                        <button class="btn btn-default" type="button">Regresar</button>
-                        <button class="btn btn-primary" type="button">Continuar</button>
-                    </div>
-                </div>
-            </div>
+            @Html.Partial("_StepTwo")
         </div>
         <!-- Paso 3 -->
         <div class="tab-pane fade" id="stepThree">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="form-group">
-                        <label class="control-label">Nombre completo *</label>
-                        <input class="form-control" name="Name" type="text" required />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Email</label>
-                        <input class="form-control" name="Email" type="email" placeholder="sample@domain.com" />
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Teléfono *</label>
-                        <input class="form-control" name="Telephone" type="number" required />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div cass="form-group">
-                        <button class="btn btn-default" type="button">Regresar</button>
-                        <button class="btn btn-success" type="submit">Guardar</button>
-                    </div>
-                </div>
-            </div>
+            @Html.Partial("_StepThree")
         </div>
     </div>
 </form>

@@ -14,7 +14,7 @@ namespace MvcInterface.Controllers
         private VehiclesData _data = new VehiclesData();
         private const int ROWS_PER_PAGE = 1;
 
-        // GET: Home
+        // GET: Index
         public ActionResult Index(int page = 1)
         {
             int totalRows = 0;
@@ -35,9 +35,20 @@ namespace MvcInterface.Controllers
             return View(objPagination);
         }
 
+        // GET: Add
+        [HttpGet]
         public ActionResult Add()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Add(Vehicle pVehicle)
+        {
+            _data.Insert(pVehicle);
+
+            ViewBag.Message = "Los datos se ingresaron correctamente";
+            return View(pVehicle);
         }
         
         private List<int> GetPages(int totalPages)
